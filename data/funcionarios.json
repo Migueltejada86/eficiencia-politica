@@ -1,0 +1,34 @@
+{
+  "ciudad": "Alta Gracia",
+  "periodo": "2023-2027",
+  "fuentes": [
+    "https://concejodeliberanteag.gob.ar/",
+    "Proclamación 9/11/2023"
+  ],
+  "nota": "Asistencia y proyectos en null hasta cargar actas (A4). Verificar suplencias en la web del HCD.",
+  "ejecutivo": {
+    "id": "int-torres",
+    "nombre": "Marcos Torres Lima",
+    "cargo": "Intendente",
+    "bloque": "Hacemos Unidos por Córdoba",
+    "asistencia_pct": null,
+    "proyectos_presentados": null,
+    "proyectos_aprobados": null
+  },
+  "autoridades_hcd": {
+    "presidente": "Jorge Sergio De Napoli (viceintendente; en licencia según home del HCD)",
+    "presidente_provisorio": "Duilio Silva",
+    "vicepresidente": "Lucía Allende"
+  },
+  "concejales": [
+    {"id": "lara-gonzalez", "nombre": "Lara Virginia González", "bloque": "Hacemos Unidos por Córdoba", "cargo": "Concejala", "asistencia_pct": null, "proyectos_presentados": null, "proyectos_aprobados": null, "comisiones": []},
+    {"id": "pablo-ortiz", "nombre": "Pablo Ortiz", "bloque": "Hacemos Unidos por Córdoba", "cargo": "Concejal", "asistencia_pct": null, "proyectos_presentados": null, "proyectos_aprobados": null, "comisiones": []},
+    {"id": "duilio-silva", "nombre": "Duilio Silva", "bloque": "Hacemos Unidos por Córdoba", "cargo": "Concejal — presidente provisorio HCD", "asistencia_pct": null, "proyectos_presentados": null, "proyectos_aprobados": null, "comisiones": []},
+    {"id": "pablo-soler", "nombre": "Pablo Soler", "bloque": "Hacemos Unidos por Córdoba", "cargo": "Concejal", "asistencia_pct": null, "proyectos_presentados": null, "proyectos_aprobados": null, "comisiones": []},
+    {"id": "consuelo-olsina", "nombre": "Consuelo Olsina", "bloque": "Hacemos Unidos por Córdoba", "cargo": "Concejala", "asistencia_pct": null, "proyectos_presentados": null, "proyectos_aprobados": null, "comisiones": []},
+    {"id": "marcelo-agazzi", "nombre": "Marcelo Agazzi", "bloque": "Hacemos Unidos por Córdoba", "cargo": "Concejal", "asistencia_pct": null, "proyectos_presentados": null, "proyectos_aprobados": null, "comisiones": []},
+    {"id": "lucia-allende", "nombre": "Lucía Allende", "bloque": "Alta Gracia Cambia", "cargo": "Concejala — vicepresidenta HCD", "asistencia_pct": null, "proyectos_presentados": null, "proyectos_aprobados": null, "comisiones": []},
+    {"id": "martin-barrionuevo", "nombre": "Martín Barrionuevo", "bloque": "Alta Gracia Cambia", "cargo": "Concejal — presidente de bloque", "asistencia_pct": null, "proyectos_presentados": null, "proyectos_aprobados": null, "comisiones": []},
+    {"id": "ricardo-gonzalez", "nombre": "Ricardo Mario González", "bloque": "Juntos por Alta Gracia", "cargo": "Concejal — presidente de bloque", "asistencia_pct": null, "proyectos_presentados": null, "proyectos_aprobados": null, "comisiones": []}
+  ]
+}
