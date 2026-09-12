@@ -1,0 +1,52 @@
+{
+  "centro": [-31.653, -64.4283],
+  "zoom": 14,
+  "tipos": {
+    "reclamo": { "color": "#c62828", "label": "Reclamo" },
+    "obra_pedida": { "color": "#f9a825", "label": "Obra pedida" },
+    "obra_curso": { "color": "#1565c0", "label": "Obra en curso" },
+    "zona_riesgo": { "color": "#ef6c00", "label": "Zona de riesgo" }
+  },
+  "pines": [
+    {
+      "id": "p1",
+      "tipo": "reclamo",
+      "titulo": "Alumbrado flojo — ejemplo",
+      "barrio": "Centro",
+      "lat": -31.6535,
+      "lng": -64.4288,
+      "estado": "abierto",
+      "nota": "Pin de ejemplo. Reemplazar con reclamo real."
+    },
+    {
+      "id": "p2",
+      "tipo": "obra_pedida",
+      "titulo": "Desagüe / cordón — ejemplo",
+      "barrio": "Villa Carlos Pellegrini",
+      "lat": -31.66,
+      "lng": -64.435,
+      "estado": "abierto",
+      "nota": "Pin de ejemplo."
+    },
+    {
+      "id": "p3",
+      "tipo": "obra_curso",
+      "titulo": "Red de gas domiciliaria — expediente en tratamiento",
+      "barrio": "Ciudad",
+      "lat": -31.648,
+      "lng": -64.422,
+      "estado": "en_obra",
+      "nota": "Ref. pública: audiencia / fondo de redes de gas 2026. Verificar expediente."
+    },
+    {
+      "id": "p4",
+      "tipo": "zona_riesgo",
+      "titulo": "Punto ciego / riesgo incendio periurbano — ejemplo",
+      "barrio": "Periurbano",
+      "lat": -31.67,
+      "lng": -64.41,
+      "estado": "abierto",
+      "nota": "Capa de riesgo. No es el dashboard Kores incendio."
+    }
+  ]
+}
