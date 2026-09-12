@@ -1,4 +1,7 @@
 import { NavLink, Route, Routes } from "react-router-dom";
+import Hub from "./pages/Hub.jsx";
+import Ciudad from "./pages/Ciudad.jsx";
+import Transporte from "./pages/Transporte.jsx";
 import Home from "./pages/Home.jsx";
 import Funcionarios from "./pages/Funcionarios.jsx";
 import Ficha from "./pages/Ficha.jsx";
@@ -12,27 +15,33 @@ export default function App() {
       <header className="app">
         <NavLink to="/" className="brand">
           Eficiencia Política
-          <small>Alta Gracia · 2023–2027</small>
+          <small>Córdoba · ciudades + provincia</small>
         </NavLink>
         <nav>
-          <NavLink to="/funcionarios">Funcionarios</NavLink>
-          <NavLink to="/mapa">Mapa</NavLink>
-          <NavLink to="/reclamos">Reclamos</NavLink>
-          <NavLink to="/pedido">Pedido A4</NavLink>
+          <NavLink to="/alta-gracia">Alta Gracia</NavLink>
+          <NavLink to="/cordoba-capital">Capital</NavLink>
+          <NavLink to="/cordoba-provincia">Provincia</NavLink>
+          <NavLink to="/tema/transporte-plataformas">Apps / Uber</NavLink>
         </nav>
       </header>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Hub />} />
+        <Route path="/tema/transporte-plataformas" element={<Transporte />} />
+        <Route path="/alta-gracia/funcionarios" element={<Funcionarios />} />
+        <Route path="/alta-gracia/funcionarios/:id" element={<Ficha />} />
+        <Route path="/alta-gracia/mapa" element={<Mapa />} />
+        <Route path="/alta-gracia/reclamos" element={<Reclamos />} />
+        <Route path="/alta-gracia/pedido" element={<Pedido />} />
         <Route path="/funcionarios" element={<Funcionarios />} />
         <Route path="/funcionarios/:id" element={<Ficha />} />
         <Route path="/mapa" element={<Mapa />} />
         <Route path="/reclamos" element={<Reclamos />} />
         <Route path="/pedido" element={<Pedido />} />
+        <Route path="/inicio-ag" element={<Home />} />
+        <Route path="/:ciudadId" element={<Ciudad />} />
       </Routes>
       <footer>
-        Proyecto independiente de datos locales. No es un sitio municipal.
-        El stream <em>Anti buena onda</em> es otro canal; acá solo se publican
-        fichas y pines. Contacto: @elmigue.tt · @malvado_migue
+        Proyecto independiente. Stream: <em>Anti buena onda</em> · @elmigue.tt
       </footer>
     </>
   );
