@@ -1,0 +1,14 @@
+{
+  "estados": ["abierto", "en_revision", "en_obra", "en_concejo", "cerrado", "sin_respuesta"],
+  "reclamos": [
+    {
+      "id": "r1",
+      "tipo": "reclamo",
+      "titulo": "Alumbrado flojo — ejemplo",
+      "barrio": "Centro",
+      "estado": "abierto",
+      "fecha": "2026-09-12",
+      "comision_sugerida": "Obras y Servicios Públicos"
+    }
+  ]
+}
