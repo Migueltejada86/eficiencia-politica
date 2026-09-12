@@ -1,38 +1,29 @@
 # Eficiencia Política
 
-Observatorio ciudadano de **Alta Gracia** (Córdoba).
+Observatorio ciudadano de **Córdoba**: municipios + provincia.
 
-- Sitio previsto: `https://eficiencia-politica.com.ar`
+- Sitio: `https://eficiencia-politica.com.ar`
 - Repo: `https://github.com/Migueltejada86/eficiencia-politica`
 - Stream (otro canal): *Anti buena onda* — @elmigue.tt / @malvado_migue
 
-La web mide. El programa es ácido. No mezclar marcas en el header ni en el pedido al Concejo.
+La web mide. El programa es ácido.
 
-## Qué hay en V1
+## Jurisdicciones
 
-| Ruta | Contenido |
-|---|---|
-| `/` | Home + 3 números (empiezan en —) |
-| `/funcionarios` | Intendente + 9 concejales 2023–2027 |
-| `/mapa` | Pines Leaflet (4 tipos) |
-| `/reclamos` | Formulario (localStorage) |
-| `/pedido` | Resumen del escrito A4 |
+| ID | Nivel | Estado V1 |
+|---|---|---|
+| `alta-gracia` | municipio | fichas + mapa + reclamos + A4 |
+| `cordoba-capital` | municipio | ficha de ciudad + tema Uber (13.549) |
+| `cordoba-provincia` | provincia | rutas / caminera / comparación entre comunas |
 
-Datos en `/data`. Pedido completo en `docs/pedido-acceso-informacion.md`.
+Para sumar una ciudad: entrada en `data/ciudades.json` + carpeta `data/<id>/`.
+Cola: Oncativo, Villa Carlos Paz, Río Cuarto, Villa María.
 
-## Correr
+## Tema Uber / apps
 
-```bash
-npm install
-npm run dev
-```
+Ruta: `/tema/transporte-plataformas`
 
-Build: `npm run build`. Deploy: Vercel, raíz de este repo.
+Sí entra: norma, quién la votó, reglamentación, multas, operativos, fallos.
+No entra: mapa de radares para choferes (eso es Guiacba).
 
-## Fuera de este repo
-
-Guiacba / Panchoradar, Kores incendio (dashboard), bots, landing de barbería, el stream.
-
-## Fuente
-
-Nombres de funcionarios: fuentes públicas. Actualizar suplencias contra https://concejodeliberanteag.gob.ar/
+Capital: Ordenanza 13.549 (ago-2025) + Decreto 796 (nov-2025).
