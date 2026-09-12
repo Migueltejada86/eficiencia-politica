@@ -1,0 +1,38 @@
+{
+  "id": "transporte-plataformas",
+  "titulo": "Transporte por app (Uber, DiDi, Cabify)",
+  "que_es": "Tema municipal y provincial. Se publica quién legisló, quién multa y con qué norma. No es un mapa para evadir controles.",
+  "fuera": "Guiacba / Panchoradar es otro repo: mapa operativo para circular en regla.",
+  "capital": {
+    "norma": "Ordenanza 13.549",
+    "sancion": "14/08/2025",
+    "reglamentacion": "Decreto 796 (05/11/2025)",
+    "figura": "Servicio Privado de Interés Público de Transporte a través de Plataformas Electrónicas",
+    "requisitos_clave": [
+      "Inscripción de empresa, dueño, vehículo y conductor",
+      "Vehículo de hasta 10 años (texto publicado)",
+      "Seguros y antecedentes",
+      "Tope de 12 horas de servicio por día"
+    ],
+    "multas_uem": {
+      "conductor": "240 a 500 UEM",
+      "propietario": "500 a 1000 UEM",
+      "empresa": "1000 a 2000 UEM"
+    }
+  },
+  "provincia": {
+    "que_medir": [
+      "Ley provincial vs parche municipal",
+      "Controles de Caminera en rutas",
+      "Fallos de otros distritos (ej. Misiones)",
+      "Municipios que unifican taxi/remis/app (Oncativo) vs los que cazan"
+    ]
+  },
+  "alta_gracia": {
+    "que_medir": [
+      "Norma propia o copia de Capital",
+      "Choferes que viven en AG y trabajan en Capital",
+      "Reclamos de vecinos vs operativos"
+    ]
+  }
+}
