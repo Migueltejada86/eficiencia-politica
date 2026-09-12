@@ -1,0 +1,39 @@
+{
+  "default": "alta-gracia",
+  "jurisdicciones": [
+    {
+      "id": "alta-gracia",
+      "nombre": "Alta Gracia",
+      "nivel": "municipio",
+      "cuerpo": "Honorable Concejo Deliberante",
+      "bancas": 9,
+      "periodo": "2023-2027",
+      "web": "https://concejodeliberanteag.gob.ar/",
+      "estado": "activo",
+      "notas": "V1 con fichas y mapa."
+    },
+    {
+      "id": "cordoba-capital",
+      "nombre": "Córdoba Capital",
+      "nivel": "municipio",
+      "cuerpo": "Concejo Deliberante",
+      "bancas": 31,
+      "periodo": "2023-2027",
+      "web": "https://cdcordoba.gob.ar/",
+      "estado": "activo",
+      "intendente": "Daniel Passerini",
+      "presidente_hcd": "Javier Pretto",
+      "notas": "Ordenanza 13.549 (apps). Nómina a verificar por suplencias."
+    },
+    {
+      "id": "cordoba-provincia",
+      "nombre": "Córdoba Provincia",
+      "nivel": "provincia",
+      "cuerpo": "Legislatura Unicameral",
+      "web": "https://legislaturacba.gob.ar/",
+      "estado": "activo",
+      "notas": "Rutas, Caminera, comparación entre comunas."
+    }
+  ],
+  "proximas": ["villa-carlos-paz", "rio-cuarto", "villa-maria", "oncativo"]
+}
